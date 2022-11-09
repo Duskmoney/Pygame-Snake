@@ -1,7 +1,7 @@
 import pygame, random
 from pygame.locals import *
 
-# funções auxiliares.
+# onde a maçã vai ficar aleatoriamente 
 def on_grid_random():
     x = random.randint(0,59)
     y = random.randint(0,59)
